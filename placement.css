@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+.top-candidates h2 {
+  padding-left: 5px;
+}
+nav {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: #e5e7eb 1px solid;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+div.logo {
+  float: left;
+  font-size: 18px;
+  color: #4951f5;
+}
+nav ul {
+  float: right;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+}
+nav li a {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:hover {
+  background-color: #4951f5;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: medium;
+  transition: 0.5s;
+}
+.text {
+  width: 420 px;
+  height: 300px;
+  padding: 15px 40px;
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  overflow: visible;
+  color: #4951f5;
+  font-size: 5em;
+  animation-name: slideLeft;
+  animation-duration: 1s;
+}
+@keyframes slideLeft {
+  from {
+    transform: translateX(300px);
+  }
+}
+.input-box {
+  position: absolute;
+  width: 80%;
+  margin: px 0;
+  color: #040404;
+  padding-left: 20em;
+}
+.input-box input {
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 60px 20px 20px;
+  color: #101010;
+}
+.input-box input::placeholder {
+  color: #000000;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 25%;
+  font-size: 20px;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+  overflow: hidden;
+  margin: 15px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 16px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.card-description {
+  font-size: 16px;
+  font-weight: 500;
+}
