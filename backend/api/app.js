@@ -6,7 +6,7 @@ const PORT = 3000;
 app.use(express.json());
 
 app.use(cors());
-cors({ origin: "file:///D:/0WIN-SEM-2024/CSE2016-SWE/LAB/SWE/signup.html" });
+cors({ origin: "https://nightcoder26.github.io/SWE-LAB/index.html" });
 
 let form = [
   {
