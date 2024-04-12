@@ -297,3 +297,38 @@ strong {
 
   margin: 1rem;
 }
+
+.welcome-message {
+  font-size: 2rem;
+  margin: 3rem;
+}
+
+.header-text {
+  font-size: 1.5rem;
+  margin: 3rem;
+}
+
+.company-form button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #4951f5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.company-form input {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Poppins";
+}
+
+.company-form input:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

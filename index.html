@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Drive 2 Destiny</title>
   </head>
+  
   <body>
     <div class="whole-page">
       <nav class="navbar">
@@ -49,12 +50,13 @@
         </div>
           </div>
           <div class="login-form">
-            <form>
+            <form id="login-form-main" >
                 <h2 align="center" class="form-text">Welcome back!</h2>
-              <input type="text" class="form-element"placeholder="Username" />
-              <input type="password" class="form-element" placeholder="Password" />
-              <button type="submit" class="form-element">Login</button>
+              <input type="text" class="form-element"placeholder="Username" id="login-username"/>
+              <input type="password" class="form-element" placeholder="Password" id="login-password"/>
+              <button onclick="handleLogin(event)" class="form-element">Login</button>
               <p>Not already a member?<a href="signup.html">Signup</a> </p>
+              <p id="error-text"></p>
             </form>
           </div>
           <div class="top-recruiters">
@@ -119,5 +121,6 @@
             <p class="about-us-text" align="center" >
                 Drive 2 Destiny is a platform that connects job seekers with top recruiters. We offer a wide range of job opportunities, <br>including internships and part-time jobs. Our platform is designed to help you find your dream job and kickstart <br>your career. Sign up today and take the first step towards a successful future!
         </div>
+        <script src="./script.js"></script>
   </body>
 </html>
