@@ -231,7 +231,9 @@ strong {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
+#error-text {
+  color: red;
+}
 .login-form button:hover {
   background-color: #4951f5;
   color: white;

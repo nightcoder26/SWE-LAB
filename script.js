@@ -31,11 +31,6 @@ const handleSignup = async (event, roleValue) => {
     document.getElementById("error-text").innerHTML =
       "An error occurred. Please try again.";
   }
-  console.log("Name:", name);
-  console.log("Email:", email);
-  console.log("Username:", username);
-  console.log("Password:", password);
-  console.log("Role:", role);
 };
 
 const handleLogin = async (event) => {
