@@ -37,6 +37,13 @@ Before getting started, ensure you have the following installed on your system:
 5. **Access the Backend**: The server should now be running locally on port 3000 by default. You can open http://localhost:3000
    You can access the backend API endpoints using tools like Postman or by making HTTP requests.
 
+## Screenshots
+![SS2](https://github.com/nightcoder26/Drive2Destiny/assets/77844703/8a8caee1-acaa-4cd5-9602-b09fa663dccf)
+
+![Screenshot 2024-05-08 142743](https://github.com/nightcoder26/Drive2Destiny/assets/77844703/a45c1788-6006-4af9-afa3-ecd4017e1b59)
+![Screenshot 2024-05-08 142929](https://github.com/nightcoder26/Drive2Destiny/assets/77844703/dafff2c7-875b-44c0-bbcb-8747c5379a1c)
+![Screenshot 2024-05-08 142854](https://github.com/nightcoder26/Drive2Destiny/assets/77844703/87bea41b-997d-4eeb-a33f-64c4f80f3f83)
+
 
 
 ## Contributing
